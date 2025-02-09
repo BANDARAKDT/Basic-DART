@@ -3,7 +3,9 @@
 
 void main(){
   print("This is the function body of the main function");
+  variablestypes();
 }
+
 
 //-------- (02) data types : 
             /*  int(num) =45
@@ -13,14 +15,31 @@ void main(){
                 dynamic = 45 / 3.145/ true / 'hello'   [can store any tipe of data]
             */
  
+
 //-------- (03) Variable : A location in memory that is set aside to store information required by the program.
-            /*   String name ="Deshani Bandara"; 
+
+void variablestypes(){ 
+                 String name ="Deshani Bandara"; 
                  int age = 25;
                  bool isProfileLocked =true;
-                 dynamic other = "hellow"
+                 dynamic others = "hellow";
+
+                 /*there are two types to concatanate a string
+                                      1.string concatinate 
+                                      2.String interpolate   */ 
+
+                 String fullName= name+ " "+ others;     // string concatinate 
+                 String username = 'My name is $name and $others everyone';      // string interpolate
+                
                  print(name);
                  print(age);
-                 print(isProfileLocked) */
+                 print(isProfileLocked) ;
+                 print(name.isEmpty);
+                 print(others.toString());
+                 print(fullName);
+                 print(username);
+                 }
+             
  
 
 
