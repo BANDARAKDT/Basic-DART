@@ -4,6 +4,7 @@
 void main(){
   print("This is the function body of the main function");
   variablestypes();
+  task();
 }
 
 
@@ -39,6 +40,17 @@ void variablestypes(){
                  print(fullName);
                  print(username);
                  }
+
+
+// ----------- (04) task
+
+void task(){
+  String name= "Nimal";
+  int age =25;
+  String city ='Ratnapura';
+
+  print('my name is ${name.toUpperCase()}I am from $city. i am $age years old');
+}
              
  
 
