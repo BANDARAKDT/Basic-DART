@@ -5,6 +5,8 @@ void main(){
   print("This is the function body of the main function");
   variablestypes();
   task();
+  preDefinedFunction();
+  opertations();
 }
 
 
@@ -53,7 +55,44 @@ void task(){
 }
              
  
+//-------------(05) pre defind functions
 
+void preDefinedFunction(){
+  String name= "Deshani";
+  String email="abcd@gmail.com";
+
+  print(email.contains('gmail'));           //  check whether that value is apper or not
+  print(email.contains('email'));
+  print(email.endsWith('com'));
+  print(email.replaceAll('com', 'lk'));
+  print(email.split('.'));                 //seperate the word from . and it apear as separate words
+                                           // we can use any character to the split function rather than fullstop. than (space, !@#$%^&*)
+}
+
+
+
+void opertations(){
+  int x=50;
+  int y=100;
+  int z=-20;
+
+  // Arithmetic opertaors
+  print(x+y);
+  print(x-y);
+  print(z);
+  print(-z);               // unery minus
+  print(x*y);
+  print(x/y);
+  print(x~/y);            
+  print(y%3);
+
+// Relational operators
+
+
+
+
+
+}
 
 
 
