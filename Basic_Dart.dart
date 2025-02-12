@@ -86,10 +86,12 @@ void opertations(){
   print(x~/y);            
   print(y%3);
 
-// Relational operators
+// assignment operators
 
+String? name='deshani';     //asign the value only if it is null
+name =null;
 
-
+print(name); 
 
 
 }
